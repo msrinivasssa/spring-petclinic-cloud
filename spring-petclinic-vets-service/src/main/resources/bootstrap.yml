@@ -4,6 +4,11 @@ spring:
       uri: http://localhost:8888
   application:
     name: vets-service
+management:
+  metrics:
+    export:
+      wavefront:
+        enabled: false
 ---
 spring:
   config:
