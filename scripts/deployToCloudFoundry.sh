@@ -15,8 +15,8 @@ done
 mvn clean package -Pcloud
 cf push --no-start
 
-cf add-network-policy api-gateway --destination-app vets-service --protocol tcp --port 8080
-cf add-network-policy api-gateway --destination-app customers-service --protocol tcp --port 8080
-cf add-network-policy api-gateway --destination-app visits-service --protocol tcp --port 8080
+cf add-network-policy api-gateway vets-service --protocol tcp --port 8080
+cf add-network-policy api-gateway customers-service --protocol tcp --port 8080
+cf add-network-policy api-gateway visits-service --protocol tcp --port 8080
 
 cf start vets-service & cf start visits-service & cf start customers-service & cf start api-gateway &
