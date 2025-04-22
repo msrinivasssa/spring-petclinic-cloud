@@ -11,6 +11,8 @@ management:
     export:
       wavefront:
         enabled: false
+logging:
+  level: DEBUG
 ---
 spring:
   config:
