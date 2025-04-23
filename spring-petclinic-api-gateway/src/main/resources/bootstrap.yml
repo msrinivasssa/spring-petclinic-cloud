@@ -9,6 +9,10 @@ management:
     export:
       wavefront:
         enabled: false
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+
 ---
 spring:
   config:
