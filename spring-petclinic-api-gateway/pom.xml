@@ -21,7 +21,7 @@
 		<assertj.version>3.11.1</assertj.version>
 
 		<spring-boot.version>2.6.3</spring-boot.version>
-		<spring-cloud.version>2021.0.0</spring-cloud.version>
+		<spring-cloud.version>2024.0.1</spring-cloud.version>
         <spring-cloud-services.version>4.2.0</spring-cloud-services.version>
 		<wavefront.version>2.2.2</wavefront.version>
 
