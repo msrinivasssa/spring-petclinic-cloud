@@ -1,17 +1,19 @@
 spring:
   cloud:
+    bindings: 
+      enabled: true
     config:
       uri: http://localhost:8888
   application:
     name: api-gateway
 management:
-  metrics:
-    export:
-      wavefront:
+  wavefront:
+    metrics:
+      export:
         enabled: false
 logging:
   level:
-    org.springframework.cloud: DEBUG
+    org.springframework.web: DEBUG
 
 ---
 spring:
