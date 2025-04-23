@@ -22,7 +22,7 @@
 
 		<spring-boot.version>2.6.3</spring-boot.version>
 		<spring-cloud.version>2021.0.0</spring-cloud.version>
-        <spring-cloud-services.version>3.3.0</spring-cloud-services.version>
+        <spring-cloud-services.version>4.2.0</spring-cloud-services.version>
 		<wavefront.version>2.2.2</wavefront.version>
 
 		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
