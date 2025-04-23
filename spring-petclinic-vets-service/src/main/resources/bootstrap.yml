@@ -6,12 +6,6 @@ spring:
       enabled: true
   application:
     name: vets-service
-management:
-  metrics:
-    export:
-      wavefront:
-        enabled: false
-
 ---
 spring:
   config:
