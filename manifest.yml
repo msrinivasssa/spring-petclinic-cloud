@@ -53,6 +53,7 @@ applications:
 
   - name: api-gateway
     path: spring-petclinic-api-gateway/target/api-gateway.jar
+    random-route: true
     buildpacks:
       - java_buildpack_offline
     health-check-type: http
